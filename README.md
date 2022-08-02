@@ -18,7 +18,8 @@ This work is licensed under a
 | $V = \lbrace v_1, v_2,..., v_n \rbrace$ | Set of voters|
 | $C = \lbrace c_1, c_2,..., c_m \rbrace$ | Set of candidates|
 |$c_i \geqslant_v c_j$ | Voter $v$ prefers $c_i$ over $c_j$. Non-strict preferences|
-|$C_v \subset C$| Subset of candidates which are approved by voter $v$
+|$C_v \subset C$| Subset of candidates which are approved by voter $v$|
+| $r_v : C \rightarrow \lbrace 1, 2,..., R_v \rbrace$ | Ranking function for voter $v$. $R_v$ is the worst rank for voter $v$. $1 \leqslant R_v \leqslant m$|
 |$\forall c_i \in C_v \forall c_j \notin C_v , c_i \gt_v c_j$ | Approved candidates are strictly ranked better than disapproved candidates|
 |$ $ |Election|
 |$ $ | Distance between elections|
